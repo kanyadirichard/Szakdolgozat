@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-14 17:58:54 by Eclipse SUMO netedit Version 1.14.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+	<!--
+    <vType id="DEFAULT_VEHTYPE" color="yellow"/>
+    <vType id="atlagos" maxSpeed="20" color="green" accel="0.9"/>
+    <vType id="garbage" maxSpeed="3.00" vClass="truck" accel="0.2" decel="2.0"/>
+    <vType id="lassu" maxSpeed="15.56" color="blue" accel="0.6"/>
+	-->
+	<vType id="atlagos" maxSpeed="10" color="green" accel="0.5"/>
+    <vType id="garbage" maxSpeed="3.00" vClass="truck" accel="0.2" decel="2.0"/>
+    <vType id="lassu" maxSpeed="10" color="blue" accel="0.35"/>
+	
+	
+    <!-- Routes -->
+    <route id="d_0" edges="-E27 E29 E31 E3 E35 E36 E13"/>
+    <route id="d_1" edges="-E27 E17 E7 -E6 E4 E5 -E0"/>
+	<route id="garbage1" edges="E53 E51 E56 E57 E54 E47 E45 E44 -E2 -E48 -E58 E59"/>
+    <route id="garbage2" edges="E55 E3 E35 E36 E13"/>
+	<route id="garbage3" edges="E1 E43 E9 E15"/>
+	<route id="garbage4" edges="E0 -E5 -E4 E60 -E7 -E38 E38 -E17 E27"/>
+    <route id="r_0" edges="-E27 E17 E34 E12"/>
+    <route id="r_1" edges="-E27 E17 E7 E18 E19 E20 -E25 E13"/>
+    <route id="r_10" edges="-E59 E58 E48 E2 E30 E28 E14 -E7 -E17 E27"/>
+    <route id="r_11" edges="-E59 E58 E48 E2 E30 E28 E14 -E7 -E38"/>
+    <route id="r_12" edges="-E59 E58 E48 E2 E30 E26 E21 -E25 -E36 E33"/>
+    <route id="r_13" edges="E61 E47 E45 E44 E30 E26 E21 -E25 E13"/>
+    <route id="r_14" edges="E61 E47 E45 E44 E30 E28 E14 -E7 -E17 E27"/>
+    <route id="r_15" edges="E61 -E54 -E58 E59"/>
+    <route id="r_16" edges="E1 E43 E9 E10"/>
+    <route id="r_17" edges="E1 E43 -E5 E39 E40 E41 -E30 -E2 -E48 -E58 E59"/>
+    <route id="r_18" edges="E1 E43 -E5 -E4 E60 -E7 -E17 E27"/>
+    <route id="r_19" edges="E1 E42 E44 E30 E26 E21 -E25 E13"/>
+    <route id="r_2" edges="-E27 E17 E7 E18 E19 E32 E33"/>
+    <route id="r_20" edges="E1 E42 E44 -E2 -E48 -E58 E59"/>
+    <route id="r_21" edges="E0 -E5 -E4 E60 -E7 -E17 E27"/>
+    <route id="r_22" edges="E0 -E5 E39 E40 E41 -E30 -E2 -E48 -E58 E59"/>
+    <route id="r_23" edges="E0 -E5 -E4 E60 -E7 -E17 E37 E52 E51 E50 E49 -E48 -E58 E59"/>
+    <route id="r_24" edges="E0 -E5 E39 E40 E41 -E30 -E2 E46 E45 E44 E30 E26 E21 -E25 E13"/>
+    <route id="r_25" edges="E11 E16 E25 -E21 -E26 -E30 -E2 -E48 -E58 E59"/>
+    <route id="r_26" edges="E11 E6 E23 E24 E5 -E0"/>
+    <route id="r_27" edges="-E13 -E16 E8 E15"/>
+    <route id="r_28" edges="-E13 E25 -E21 -E26 -E30 -E2 -E48 E54 -E61"/>
+    <route id="r_29" edges="-E13 E25 -E21 -E26 -E30 -E2 -E48 -E58 E59"/>
+	<route id="r_30" edges="E53 E51 E56 E57 E48 E2 E30 E26 E21 -E25 E13"/>
+    <route id="r_3" edges="-E27 E17 E7 E18 E19 E32 E36 E13"/>
+    <route id="r_31" edges="-E13 E25 E22 E23 E24 E5 -E0"/>
+    <route id="r_32" edges="E53 -E52 -E37 E29 E31 -E55"/>
+    <route id="r_33" edges="E55 -E31 -E29 E37 E52 E51 E50 E49 E2 E30 E28 E14 -E7 -E17 E27"/>
+    <route id="r_34" edges="E55 E3 E35 E36 E13"/>
+    <route id="r_35" edges="E55 E3 -E34 E7 -E6 E4 E5 E9 E15"/>
+    <route id="r_36" edges="-E59 E58 -E57 E57 E54 -E61"/>
+    <route id="r_37" edges="E55 -E31 -E29 E17 E7 E18 E19 E20 -E25 E13"/>
+    <route id="r_4" edges="-E27 E17 E7 -E6 E4 E5 E9 E10"/>
+    <route id="r_5" edges="E53 -E52 -E37 E29 E31 E3 -E34 E7 -E6 E4 E5 -E0"/>
+    <route id="r_6" edges="E53 -E52 -E37 E29 E31 E3 E35 E36 E13"/>
+    <route id="r_7" edges="E38 -E17 E37 E52 -E53"/>
+    <route id="r_8" edges="E38 -E17 E37 E52 E51 E56 E57 E54 -E61"/>
+    <route id="r_9" edges="-E59 E58 E48 E2 E30 E26 E21 -E25 E13"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="d_1" end="10000.00" probability="0.12"/>
+    <flow id="f_1" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="d_1" end="10000.00" probability="0.07"/>
+    <flow id="f_10" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_7" end="10000.00" probability="0.01"/>
+    <flow id="f_11" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_8" end="10000.00" probability="0.01"/>
+    <flow id="f_12" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_9" end="10000.00" probability="0.15"/>
+    <flow id="f_13" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_10" end="10000.00" probability="0.05"/>
+    <flow id="f_14" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_11" end="10000.00" probability="0.03"/>
+    <flow id="f_15" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_12" end="10000.00" probability="0.02"/>
+    <flow id="f_16" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_13" end="10000.00" probability="0.005"/>
+    <flow id="f_17" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_14" end="10000.00" probability="0.005"/>
+    <flow id="f_18" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_15" end="10000.00" probability="0.03"/>
+    <flow id="f_19" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_16" end="10000.00" probability="0.06"/>
+    <flow id="f_2" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="d_0" end="10000.00" probability="0.02"/>
+	<flow id="f_20" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_21" end="10000.00" probability="0.03"/>
+    <flow id="f_21" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_18" end="10000.00" probability="0.02"/>
+    <flow id="f_22" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_19" end="10000.00" probability="0.01"/>
+    <flow id="f_24" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_21" end="10000.00" probability="0.15"/>
+    <flow id="f_25" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_22" end="10000.00" probability="0.04"/>
+    <flow id="f_26" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_23" end="10000.00" probability="0.03"/>
+	<flow id="f_27" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_24" end="10000.00" probability="0.005"/>
+    <flow id="f_28" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_25" end="10000.00" probability="0.005"/>
+    <flow id="f_29" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_26" end="10000.00" probability="0.02"/>
+    <flow id="f_3" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_0" end="10000.00" probability="0.01"/>
+    <flow id="f_30" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_27" end="10000.00" probability="0.01"/>
+    <flow id="f_31" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_28" end="10000.00" probability="0.10"/>
+    <flow id="f_32" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_29" end="10000.00" probability="0.14"/>
+	<flow id="f_23" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_30" end="10000.00" probability="0.01"/>
+    <flow id="f_34" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_31" end="10000.00" probability="0.09"/>
+    <flow id="f_36" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_33" end="10000.00" probability="0.02"/>
+    <flow id="f_37" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_34" end="10000.00" probability="0.03"/>
+    <flow id="f_38" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_35" end="10000.00" probability="0.03"/>
+    <flow id="f_39" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_32" end="10000.00" probability="0.02"/>
+    <flow id="f_4" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_1" end="10000.00" probability="0.05"/>
+    <flow id="f_40" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_32" end="10000.00" probability="0.03"/>
+    <flow id="f_41" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_36" end="10000.00" probability="0.03"/>
+    <flow id="f_42" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_37" end="10000.00" probability="0.02"/>
+    <flow id="f_5" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_2" end="10000.00" probability="0.03"/>
+    <flow id="f_6" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_3" end="10000.00" probability="0.01"/>
+    <flow id="f_7" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_4" end="10000.00" probability="0.10"/>
+    <flow id="f_8" type="lassu" begin="0.00" departLane="random" arrivalLane="current" route="r_5" end="10000.00" probability="0.01"/>
+    <flow id="f_9" type="atlagos" begin="0.00" departLane="random" arrivalLane="current" route="r_6" end="10000.00" probability="0.02"/>
+	<!-- -->
+	<vehicle id="garbage1" type="garbage" depart="800.00" route="garbage1"/> 
+	<vehicle id="garbage2" type="garbage" depart="800.00" route="garbage2"/>
+	<vehicle id="garbage3" type="garbage" depart="800.00" route="garbage3"/> 
+	<vehicle id="garbage4" type="garbage" depart="800.00" route="garbage4"/> 
+	
+	
+	
+</routes>
